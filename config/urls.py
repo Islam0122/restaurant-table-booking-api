@@ -6,6 +6,8 @@ from .drf_yasg import urlpatterns as swagger_urls
 
 urlpatterns = [
                   path('admin/', admin.site.urls),
+                  path('api/v1/', include('apps.Table.urls')),
+
               ] + swagger_urls
 
 if settings.DEBUG:

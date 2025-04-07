@@ -27,6 +27,7 @@ INSTALLED_APPS = [
     'drf_yasg',
 
     #apps
+    'apps.Table'
 
 
 ]
@@ -62,14 +63,6 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'config.wsgi.application'
-
-# --- База данных (PostgreSQL) ---
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
-    }
-}
 
 # --- Локализация ---
 LANGUAGE_CODE = 'ru-RU'

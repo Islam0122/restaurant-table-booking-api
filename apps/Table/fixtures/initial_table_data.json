@@ -1,0 +1,47 @@
+[
+  {
+    "model": "Table.Table",
+    "pk": 1,
+    "fields": {
+      "name": "Столик 1",
+      "seats": 4,
+      "location": "Зал у окна"
+    }
+  },
+  {
+    "model": "Table.Table",
+    "pk": 2,
+    "fields": {
+      "name": "Столик 2",
+      "seats": 2,
+      "location": "Терраса"
+    }
+  },
+  {
+    "model": "Table.Table",
+    "pk": 3,
+    "fields": {
+      "name": "Столик 3",
+      "seats": 6,
+      "location": "Центр"
+    }
+  },
+  {
+    "model": "Table.Table",
+    "pk": 4,
+    "fields": {
+      "name": "Столик 4",
+      "seats": 8,
+      "location": "VIP-зал"
+    }
+  },
+  {
+    "model": "Table.Table",
+    "pk": 5,
+    "fields": {
+      "name": "Столик 5",
+      "seats": 3,
+      "location": "Барная стойка"
+    }
+  }
+]
