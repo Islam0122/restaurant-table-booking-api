@@ -96,10 +96,10 @@ REST_FRAMEWORK = {
 from .cors import *
 
 JAZZMIN_SETTINGS = {
-    "site_title": "MindMentor",  # Заголовок сайта
-    "site_header": "Админка MindMentor",  # Заголовок на главной странице админки
-    "site_brand": "MindMentor",  # Логотип или название бренда на странице
-    "welcome_sign": "Добро пожаловать в админку MindMentor!",  # Приветственное сообщение
+    "site_title": "Админка",  # Заголовок сайта
+    "site_header": "Админка ",  # Заголовок на главной странице админки
+    "site_brand": "Админка ",  # Логотип или название бренда на странице
+    "welcome_sign": "Добро пожаловать в админку !",  # Приветственное сообщение
     "topmenu_links": [
         {"name": "Главная", "url": "/admin/", "permissions": ["auth.view_user"]},
     ],
