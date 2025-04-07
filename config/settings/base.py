@@ -27,8 +27,8 @@ INSTALLED_APPS = [
     'drf_yasg',
 
     #apps
-    'apps.Table'
-
+    'apps.Table',
+    'apps.Reservation',
 
 ]
 
